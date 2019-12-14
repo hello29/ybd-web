@@ -1,4 +1,4 @@
-.wrap {
+.mod-wrap {
     width: 1200px;
     margin: 0 auto;
 }
@@ -26,6 +26,14 @@
     line-height: 45px;
 }
 
+.ybd-text-black-20 {
+    font-size: 20px;
+    /* font-family: PingFang-SC-Light, PingFang-SC; */
+    font-weight: 300;
+    color: rgba(37, 34, 33, 1);
+    line-height: 28px;
+}
+
 .ybd-text-black-18 {
     font-size: 18px;
     font-family: PingFangSC-Medium, PingFang SC;
@@ -50,6 +58,14 @@
     line-height: 20px
 }
 
+.ybd-text-white-20 {
+    font-size: 20px;
+    /* font-family:PingFang-SC-Light,PingFang-SC; */
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    line-height: 28px;
+}
+
 .ybd-text-white-18 {
     font-size: 18px;
     font-family: PingFangSC-Regular, PingFang SC;
@@ -65,3 +81,51 @@
     color: rgba(255, 255, 255, 1);
     line-height: 20px;
 }
+
+/* 公共区域标题 */
+.mod-title {
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.mod-title h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.mod-title i {
+    width: 108px;
+    height: 14px;
+    display: block;
+    margin: 0 auto;
+    background: url('../images/home/icon_zhuangshi@2x.png') no-repeat center;
+    background-size: cover;
+}
+
+/* 公共区域标题-end */
+
+/* 公共更多样式 */
+
+.main .content .item p {
+    margin-bottom: 10px;
+}
+
+.main .content .item .more i {
+    width: 7px;
+    height: 14px;
+    background: url('../images/home/icon_arrow_right_sel@2x.png');
+    display: inline-block;
+    background-size: cover;
+    margin-left: 9px;
+    vertical-align: middle;
+}
+
+.main .content .item .more:hover {
+    color: #ed7d31;
+}
+
+.main .content .item .more:hover i {
+    background-image: url('../images/home/icon_arrow_right_sel_hover@2x.png');
+}
+
+/* 公共更多样式-end */

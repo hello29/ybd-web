@@ -1,3 +1,246 @@
 /* 首页-start */
- 
+/* 首页-头部导航 */
+.header {
+    background: #252221;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.header .logo {
+    margin-top: 20px;
+    float: left;
+}
+
+.header .nav {
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(227, 227, 227, 1);
+    line-height: 25px;
+    float: right;
+}
+
+.header .nav>li {
+    float: left;
+    line-height: 80px;
+    margin-left: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.header .nav li:hover {
+    color: #ed7d31;
+}
+
+.header .nav li:hover .dropdown {
+    display: block;
+}
+
+.header .nav li .dropdown {
+    position: absolute;
+    width: 141px;
+    top: 78px;
+    left: -31px;
+    padding-top: 8px;
+    display: none;
+}
+
+.header .nav li .dropdown .triangle {
+    width: 10px;
+    height: 10px;
+    background: rgba(37, 34, 33, 1);
+    position: absolute;
+    left: 50%;
+    display: block;
+    transform: rotate(45deg);
+    top: 3px;
+    margin-left: -6px;
+}
+
+.header .nav li .dropdown>ul {
+    background: rgba(37, 34, 33, 1);
+    box-shadow: 0px 8px 40px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    border-radius: 6px;
+}
+
+.header .nav li .dropdown>ul>li {
+    color: #fff;
+    line-height: 1;
+    padding: 15px 0 15px 30px;
+}
+
+.header .nav li .dropdown>ul>li:hover {
+    color: #ed7d31;
+}
+
+/* 首页-头部导航-end */
+/* 首页-banner */
+.banner {
+    height: 580px;
+    background: url('../images/home/homepage_banner1@2x.jpg') no-repeat center bottom;
+    background-size: cover;
+    padding-top: 130px;
+}
+
+.banner .home-title {
+    text-align: center;
+}
+
+/* 首页-banner-end */
+.banner .home-title i {
+    display: inline-block;
+    width: 45px;
+}
+
+/* 首页-内容*/
+.main .secion-prod {
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.main .secion-prod .content .item img {
+    margin-bottom: 48px;
+}
+
+.main .secion-prod .content .item {
+    width: 320px;
+    margin-right: 103px;
+}
+
+.main .secion-prod .content .item {
+    text-align: center;
+    float: left;
+}
+
+.main .secion-prod .content .item:last-child {
+    margin-right: 0;
+}
+
+
+/* 首页-仪器设备 */
+.secion-device {
+    height: 500px;
+    background: #252221 url('../images/home/home_bg_shebei.jpg') center;
+    background-size: cover;
+}
+
+.swiper-container {
+    padding: 0 85px;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    /* padding: 0 85px; */
+}
+
+.swiper-slide {
+    height: 320px;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    margin-bottom: 11px;
+}
+
+.swiper-slide p {
+    height: 30px;
+    text-align: center;
+}
+
+.swiper-img {
+    width: 240px;
+    height: 275px;
+    background-size: 100% !important;
+}
+
+.swiper-button::after {
+    font-size: 0;
+    display: block;
+    width: 31px;
+    height: 69px;
+    opacity: 1;
+    background: url('../images/home/home_shebei_icon_arrow_left_sel@2x.png') center no-repeat;
+    background-size: 28px;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+    opacity: 1;
+}
+
+.swiper-button-next::after {
+    background-image: url('../images/home/home_shebei_icon_arrow_right_sel@2x.png');
+}
+
+.swiper-button-prev.swiper-button-disabled::after {
+    background-image: url('../images/home/home_shebei_icon_arrow_left_nor@2x.png');
+}
+
+.swiper-button-next.swiper-button-disabled::after {
+    background-image: url('../images/home/home_shebei_icon_arrow_right_nor@2x.png');
+}
+
+/* 首页-仪器设备-end */
+
+/* 首页-测试设备 */
+.main .secion-test {
+    overflow: hidden;
+
+}
+
+.main .secion-test .content {
+    padding-left: 65px;
+}
+
+.main .secion-test .content .item {
+    text-align: center;
+    float: left;
+    margin-right: 176px;
+}
+
+.main .secion-test .content .item:last-child {
+    margin-right: 0;
+}
+
+.main .secion-test .content .item img {
+    margin-bottom: 23px;
+}
+
+/* 首页-测试设备-end */
+/* 首页-合作伙伴 */
+.serve-content {
+    width: 1200px;
+    height: 372px;
+    background: center url('../images/home/home_bg_jishu.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.serve-desc {
+    position: absolute;
+    top: 50%;
+    font-size: 48px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 67px;
+    height: 67px;
+    transform: translateY(-50%);
+}
+
+.serve-desc-left {
+    left: 160px;
+}
+
+.serve-desc-right {
+    right: 160px;
+}
+
+/* 首页-合作伙伴-end */
+/* 首页-内容*/
 /* 首页-end */
