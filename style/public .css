@@ -129,3 +129,77 @@
 }
 
 /* 公共更多样式-end */
+
+/* 公共footer样式 */
+.footer {
+    background: rgb(38, 34, 33) url('../images/home/bg_footer.jpg') no-repeat center bottom;
+    padding-top: 60px;
+}
+
+.footer .mod-wrap {
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    min-height: 340px;
+
+}
+
+.footer .mod-wrap p {
+    line-height: 25px;
+}
+
+.footer .mod-wrap h3 {
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    margin-bottom: 15px;
+}
+
+.footer .mod-wrap .copyright {
+    color: rgba(123, 122, 121, 1);
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+.footer .company-info {
+    float: left;
+}
+
+.footer-nav {
+    overflow: hidden;
+    float: right;
+}
+
+.footer-nav dl {
+    float: left;
+    margin-left: 49px;
+}
+
+.footer-nav dt {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: PingFangSC-Medium, PingFang SC;
+    color: rgba(255, 255, 255, 1);
+    line-height: 25px;
+    margin-bottom: 11px;
+}
+
+.footer-nav dd {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 11px;
+}
+
+.footer-nav dd a {
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.footer-nav dd a:hover {
+    color: #ed7d31;
+}
+
+/* 公共footer样式-end */

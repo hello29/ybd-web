@@ -212,13 +212,19 @@
 }
 
 /* 首页-测试设备-end */
-/* 首页-合作伙伴 */
+/* 首页-技术服务 */
+.secion-serve {
+    padding-bottom: 80px;
+    ;
+}
+
 .serve-content {
     width: 1200px;
     height: 372px;
     background: center url('../images/home/home_bg_jishu.jpg');
     background-size: cover;
     position: relative;
+    padding-bottom: 80px;
 }
 
 .serve-desc {
@@ -239,6 +245,26 @@
 
 .serve-desc-right {
     right: 160px;
+}
+
+/* 首页-技术服务-end */
+
+/* 首页-合作伙伴 */
+.secion-partner {
+    overflow: hidden;
+    background: rgb(245, 245, 245) url('../images/home/home_bg_partner.jpg') center;
+    background-size: 1200px auto;
+}
+
+.partner-list .item {
+    margin-right: 120px;
+    background: #ccc;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.partner-list .item:nth-child(6n) {
+    margin-right: 0;
 }
 
 /* 首页-合作伙伴-end */
