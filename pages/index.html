@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="../style/reset.css" />
+        <link rel="stylesheet" href="../style/public .css" />
+        <link rel="stylesheet" href="../style/ybd.css" />
+        <title>盈蓓德官网</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="wrap">
+                <a href="#">
+                    <img
+                        class="logo"
+                        alt="盈蓓德官网"
+                        width="106px"
+                        height="40px"
+                        src="../images/home/nav_logo_ybd@2x.png"
+                    />
+                </a>
+                <ul class="nav">
+                    <li>首页</li>
+                    <li>
+                        软件产品
+                        <div class="dropdown">
+                            <i class="triangle"></i>
+                            <ul>
+                                <li>消费电子</li>
+                                <li>消费电子</li>
+                                <li>消费电子</li>
+                                <li>消费电子</li>
+                                <li>消费电子</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        仪器设备
+                        <div class="dropdown">
+                            <i class="triangle"></i>
+                            <ul>
+                                <li>消费电子</li>
+                                <li>消费电子</li>
+                                <li>消费电子</li>
+                                <li>消费电子</li>
+                                <li>消费电子</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        测试系统
+                        <div class="dropdown">
+                            <i class="triangle"></i>
+                            <ul>
+                                <li>消费电子</li>
+                                <li>消费电子</li>
+                                <li>消费电子</li>
+                                <li>消费电子</li>
+                                <li>消费电子</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>技术服务</li>
+                    <li>关于我们</li>
+                    <li>联系我们</li>
+                </ul>
+            </div>
+        </div>
+
+        <style>
+            .header {
+                background: #252221;
+                height: 80px;
+            }
+            .header .logo {
+                margin-top: 20px;
+                float: left;
+            }
+            .header .nav {
+                font-size: 18px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: rgba(227, 227, 227, 1);
+                line-height: 25px;
+                float: right;
+            }
+            .header .nav > li {
+                float: left;
+                line-height: 80px;
+                margin-left: 50px;
+                cursor: pointer;
+                position: relative;
+            }
+            .header .nav li:hover {
+                color: #ed7d31;
+            }
+            .header .nav li:hover .dropdown {
+                display: block;
+            }
+            .header .nav li .dropdown {
+                position: absolute;
+                width: 141px;
+                top: 78px;
+                left: -31px;
+                padding-top: 8px;
+                display: none;
+            }
+            .header .nav li .dropdown .triangle {
+                width: 10px;
+                height: 10px;
+                background: rgba(37, 34, 33, 1);
+                position: absolute;
+                left: 50%;
+                display: block;
+                transform: rotate(45deg);
+                top: 3px;
+                margin-left: -6px;
+            }
+            .header .nav li .dropdown > ul {
+                background: rgba(37, 34, 33, 1);
+                box-shadow: 0px 8px 40px 6px rgba(0, 0, 0, 0.1);
+                padding: 15px 0;
+                border-radius: 6px;
+            }
+            .header .nav li .dropdown > ul > li {
+                color: #fff;
+                line-height: 1;
+                padding: 15px 0 15px 30px;
+            }
+            .header .nav li .dropdown > ul > li:hover {
+                color: #ed7d31;
+            }
+        </style>
+    </body>
+</html>
