@@ -1,7 +1,8 @@
 /* 首页-start */
 /* 首页-头部导航 */
 .header {
-    background: #252221;
+    /* background: #252221; */
+    background: transparent;
     height: 80px;
     width: 100%;
     position: fixed;
@@ -9,7 +10,12 @@
     top: 0;
     z-index: 99;
 }
-
+.header-bg-black{
+    background-color:#252221;
+}
+.header-bg-transparent{
+    background-color:transparent;
+}
 .header .logo {
     margin-top: 20px;
     float: left;
@@ -157,9 +163,8 @@
     height: 275px;
     background-size: 100% !important;
 }
-
 .swiper-button::after {
-    font-size: 0;
+    font-size: 0!important;
     display: block;
     width: 31px;
     height: 69px;
@@ -224,7 +229,7 @@
     background: center url('../images/home/home_bg_jishu.jpg');
     background-size: cover;
     position: relative;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
 }
 
 .serve-desc {
@@ -254,12 +259,15 @@
     overflow: hidden;
     background: rgb(245, 245, 245) url('../images/home/home_bg_partner.jpg') center;
     background-size: 1200px auto;
+    background-repeat: repeat-y;
 }
 
 .partner-list .item {
     margin-right: 120px;
     background: #ccc;
     float: left;
+    width: 100px;
+    height: 100px;
     margin-bottom: 60px;
 }
 
