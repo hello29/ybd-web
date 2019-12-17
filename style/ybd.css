@@ -10,12 +10,15 @@
     top: 0;
     z-index: 99;
 }
-.header-bg-black{
-    background-color:#252221;
+
+.header-bg-black {
+    background-color: #252221;
 }
-.header-bg-transparent{
-    background-color:transparent;
+
+.header-bg-transparent {
+    background-color: transparent;
 }
+
 .header .logo {
     margin-top: 20px;
     float: left;
@@ -163,8 +166,9 @@
     height: 275px;
     background-size: 100% !important;
 }
+
 .swiper-button::after {
-    font-size: 0!important;
+    font-size: 0 !important;
     display: block;
     width: 31px;
     height: 69px;
@@ -278,3 +282,150 @@
 /* 首页-合作伙伴-end */
 /* 首页-内容*/
 /* 首页-end */
+
+/* view */
+.richtext-prod-info {
+    background-color: #f9f9f9;
+    padding: 40px 0 60px 0;
+}
+
+.richtext-prod-intro .intro-item {
+    overflow: hidden;
+    padding: 40px 0 20px 220px;
+    border-bottom: solid #E3E3E3 1px;
+}
+
+.richtext-prod-intro .intro-item:last-child {
+    border-bottom: none;
+}
+
+.intro-l,
+.intro-r {
+    float: left;
+}
+
+.intro-l h4 {
+    font-size: 18px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(37, 34, 33, 1);
+}
+
+.intro-l h4::before {
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 25px;
+    background-color: #ed7d31;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.intro-r {
+    margin-left: 55px;
+    max-width: 800px;
+}
+
+/* view-end */
+
+/* 技术服务 */
+.dev {
+    padding: 80px 0 90px 0;
+}
+
+.dev {
+    overflow: hidden;
+}
+
+.dev-list .item {
+    width: 380px;
+    height: 450px;
+    background-color: #f7f7f7;
+    float: left;
+    margin-right: 30px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.dev-list .item:last-child {
+    margin-right: 0;
+}
+
+.dev-list .item h3 {
+    font-size: 24px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(237, 125, 49, 1);
+    margin-bottom: 30px;
+    line-height: 33px;
+}
+
+.dev-list .item p {
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #252221;
+    line-height: 25px;
+    margin-bottom: 18px;
+}
+
+.dev-list .item p:last-child {
+    margin-bottom: 0;
+}
+
+/* 技术服务-end */
+
+/* 联系我们 */
+.contact {
+    padding-top: 80px;
+}
+
+.company-map {
+}
+
+.company-map-img {
+    float: left;
+    margin-left: -120px;
+}
+
+.company-address {
+    float: left;
+    margin-left: 112px;
+    margin-top: 46px;
+}
+
+.address-intro {
+    margin-bottom: 23px;
+    overflow: hidden;
+}
+
+.address-info {
+    float: left;
+}
+
+.company-address h4 {
+    font-size: 18px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(237, 125, 49, 1);
+    line-height: 25px;
+}
+
+.address {
+    padding: 13px;
+    background-color: #F9F9F9;
+    margin-bottom: 25px;
+
+}
+
+.address-icon {
+    margin-top: 5px;
+    float: left;
+    margin-right: 10px;
+    width: 26px;
+    height: 41px;
+    background: url('../images/contact/icon_adress_2@2x.png') center no-repeat;
+    background-size: cover;
+}
+
+/* 联系我们-end */

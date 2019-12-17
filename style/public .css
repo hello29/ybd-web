@@ -1,3 +1,4 @@
+
 .mod-wrap {
     width: 1200px;
     margin: 0 auto;
@@ -105,7 +106,10 @@
 /* 公共区域标题-end */
 
 /* 公共更多样式 */
-
+.main{
+    clear: both;
+    min-height: 500px;
+}
 .main .content .item p {
     margin-bottom: 10px;
 }
@@ -134,6 +138,7 @@
 .footer {
     background: rgb(38, 34, 33) url('../images/home/bg_footer.jpg') no-repeat center bottom;
     padding-top: 60px;
+    clear: both;
 }
 
 .footer .mod-wrap {
@@ -277,3 +282,36 @@
 }
 
 /* view部分2/3级头部导航样式-end */
+
+/* 关于我们 */
+.about {
+    padding-top: 116px;
+}
+
+.company-intro .mod-title {
+    margin-bottom: 11px;
+}
+
+.company-intro .mod-title h2 {
+    text-align: left;
+}
+
+.company-intro .mod-title i {
+    margin-left: 10px;
+}
+
+.intro-img {
+    float: left;
+    margin-left: -120px;
+}
+
+.intro-info {
+    float: right;
+    width: 504px;
+}
+
+.about .secion-partner {
+    clear: both;
+}
+
+/* 关于我们-end */
